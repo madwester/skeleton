@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "compile:sass": "node-sass build/scss/main.scss build/css/custom.css -w"
+=======
+    "compile:sass": "node-sass scss/main.scss css/custom.css -w"
+>>>>>>> 93bb3a0f8557c39ab2229cb3b9225e6b3a43b43a
   },
   "author": "",
   "license": "ISC",
