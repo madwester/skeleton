@@ -1,0 +1,43 @@
+.u-center-text {
+    text-align: center!important;
+}
+
+// MARGIN BOTTOMS
+.u-margin-bottom-xs {
+    margin-bottom: 1rem!important;
+}
+.u-margin-bottom-sm {
+    margin-bottom: 2rem!important;
+}
+.u-margin-bottom-md { 
+    margin-bottom: 4rem!important; 
+    @include respond(tab-port){ 
+        margin-bottom: 3rem!important;
+    }
+}
+.u-margin-bottom-lg {
+    margin-bottom: 6rem!important;
+}
+.u-margin-bottom-xl { 
+    margin-bottom: 8rem!important; 
+    @include respond(tab-port){ 
+        margin-bottom: 5rem!important;
+    }
+}
+
+// MARGIN TOPS
+.u-margin-top-xs {
+    margin-top: 1rem!important;
+}
+.u-margin-top-sm {
+    margin-top: 2rem!important;
+}
+.u-margin-top-md {
+    margin-top: 4rem!important;
+}
+.u-margin-top-lg {
+    margin-top: 6rem!important;
+}
+.u-margin-top-xl {
+    margin-top: 8rem!important;
+}
