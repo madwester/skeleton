@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass build/sass/main.scss build/css/style.css -w"
+    "compile:sass": "node-sass build/sass/main.scss build/css/custom.css -w"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.9.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
 }
